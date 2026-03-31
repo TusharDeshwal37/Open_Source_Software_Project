@@ -3,12 +3,12 @@
 # Author: [Your Name] | Course: Open Source Software
 
 # --- Variables ---
-STUDENT_NAME="Nikhilesh Sarode"        # Fill in your name
+STUDENT_NAME="Tushar Deshwal"        # Fill in your name
 SOFTWARE_CHOICE="Python"             # Fill in your chosen software
 
 # --- System info ---
 KERNEL=$(uname -r)
-USER_NAME="Nikhilesh"
+USER_NAME="Tushar Deshwal"
 UPTIME=$(uptime -p)
 DISTRO=$(cat /etc/os-release | grep -w "PRETTY_NAME" | cut -d= -f2 | tr -d '"')
 # Getting date in a clear format
