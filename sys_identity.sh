@@ -8,7 +8,7 @@ SOFTWARE_CHOICE="Python"             # Fill in your chosen software
 
 # --- System info ---
 KERNEL=$(uname -r)
-USER_NAME="Tushar Deshwal"
+USER_NAME="tushar"
 UPTIME=$(uptime -p)
 DISTRO=$(cat /etc/os-release | grep -w "PRETTY_NAME" | cut -d= -f2 | tr -d '"')
 # Getting date in a clear format
@@ -23,7 +23,7 @@ echo "================================"
 echo "Kernel     : $KERNEL"
 echo "Distro     : $DISTRO"
 echo "User       : $USER_NAME"
-echo "Home Dir   : /home/Tushar Deshwal"
+echo "Home Dir   : /home/tushar"
 echo "Uptime     : $UPTIME"
 echo "Date/Time  : $CURRENT_DATE"
 echo "================================"
